@@ -11,7 +11,7 @@
 	<groupId>com.ann</groupId>
 	<artifactId>product-service</artifactId>
 	<version>1.0.0</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>product</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>

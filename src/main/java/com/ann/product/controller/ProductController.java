@@ -56,7 +56,7 @@ public class ProductController {
 	public ResponseEntity <String> createPoduct(@RequestBody ProductRequest productRequest){
 		String message = productService.addProduct(productRequest);
 		
-		return new ResponseEntity<String>("Employee added Successflly!", HttpStatus.OK);
+		return new ResponseEntity<String>("Product added Successflly!", HttpStatus.OK);
 		
 	}
 	
@@ -64,7 +64,7 @@ public class ProductController {
 	public ResponseEntity <String> updatePoduct(@RequestBody ProductRequest productRequest){
 		String message = productService.updateProduct(productRequest);
 		
-		return new ResponseEntity<String>("Employee updated Successflly!", HttpStatus.OK);
+		return new ResponseEntity<String>("Product updated Successflly!", HttpStatus.OK);
 		
 	}
 	

@@ -18,7 +18,7 @@ public class ProductService {
 	@Autowired
 	private ProductRepository prodRepo;
 	
-	private ProductUtil productUtil;
+	private ProductUtil productUtil = new ProductUtil();
 	
 	public Product getProduct(Long empId) {
 		Optional<Product> product = prodRepo.findById(empId);
